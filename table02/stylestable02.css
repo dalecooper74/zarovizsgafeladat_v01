@@ -1,0 +1,17 @@
+#chessboard {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width: 400px;
+    height: 400px;
+}
+
+/* Szürke mezők háttere */
+#chessboard div:nth-child(odd) {
+    background-color: #ccc;
+}
+
+/* Fehér mezők háttere */
+#chessboard div:nth-child(even) {
+    background-color: #fff;
+}
